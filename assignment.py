@@ -11,11 +11,14 @@ def add_two(number: int) -> int:
     """
     Adds two to `number`
     """
-    raise NotImplementedError()
+    return number + 2
 
 
 def zero_array(N: int) -> np.ndarray:
     """
     Returns a double type ndarray of length N filled with zeros 
     """
-    raise NotImplementedError()
+    zeros_array = np.zeros(N*2, dtype=np.float64)
+    return zeros_array
+
+# print(zero_array(3))
