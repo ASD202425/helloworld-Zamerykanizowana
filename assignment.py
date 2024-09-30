@@ -4,7 +4,7 @@ def hello_world() -> str:
     """
     Implement a function that returns Hello World!
     """
-    raise NotImplementedError()
+    return "Hello World!"
 
 
 def add_two(number: int) -> int:
