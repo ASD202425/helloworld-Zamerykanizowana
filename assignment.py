@@ -18,7 +18,7 @@ def zero_array(N: int) -> np.ndarray:
     """
     Returns a double type ndarray of length N filled with zeros 
     """
-    zeros_array = np.zeros(N*2, dtype=np.float64)
+    zeros_array = np.zeros(N, dtype=np.float64)
     return zeros_array
 
 # print(zero_array(3))
